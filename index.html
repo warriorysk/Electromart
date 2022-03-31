@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electromart</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b942e9570b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.ico">
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm bg-light navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/mainlogo.png" alt="logo electromart" id="lg1"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav" id="nav-1" >
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign Up</a>
+              </li>
+              <li class="nav-item" id="nav-item-cart">
+                <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div id="header">
+        <div class="col-lg-5 col-md-7 d-xs-none" id="header-search-0">
+          <div class="search-box">
+            <div class="input-group mt-3 mb-3">
+              <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                All
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Mobiles</a></li>
+                <li><a class="dropdown-item" href="#">Laptops</a></li>
+                <li><a class="dropdown-item" href="#">Cameras</a></li>
+                <li><a class="dropdown-item" href="#">Pcs</a></li>
+                <li><a class="dropdown-item" href="#">Headsets</a></li>
+                <li><a class="dropdown-item" href="#">Tv's</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+              </ul>
+              <input type="text" class="form-control" placeholder="search item">
+              <button class="btn btn-dark" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+        
+      
+    </div>
+   
+    <div class="container-xlg">
+      
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+          
+          <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          </div>
+
+          
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/mob-sl-1.jpeg" alt="oneplus-8" class="d-block w-100" id="sl1">
+              <div class="carousel-caption">
+                
+                <p>* Upto 6000 of on all SBI Credit cards</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/lap-sl-1.png" alt="laptop" class="d-block w-100" id="sl2">
+              <div class="carousel-caption">
+                <h3 id="clr">Huawei MateBook</h3>
+                <p id="clr">Sales starts on 27 march</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/iphone-sl3.png" alt="iphone" class="d-block w-100" id="sl3">
+              <div class="carousel-caption">
+                <h3>Iphone 13</h3>
+                <p>* Get this as low as 73,499<br/>On all SBI Credit Cards</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/lap-sl-2.png" alt="mac book" class="d-block w-100" id="sl4">
+              <div class="carousel-caption">
+                <h3 id="clr">MacBook Pro</h3>
+                <p id="clr">8-Core CPU
+                  14-Core GPU
+                  16GB Unified Memory
+                  512GB SSD Storage¹</p>
+              </div>
+            </div>
+          </div>
+
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    
+    </div>
+    <div class="container-xlg" id="con-2">
+      <div class="col-md-4 fetu" id="fetu-cato" >
+        <h1 id="fetu-cato-text">Featured Categories</h1>
+      </div>
+      <div class="container" id="cato-box">
+        <div class="col-md-4 items-cato " id="i-cato" >
+          <div class="container" id="cato-innerbox-img">
+            <img src="images/headset.png" alt="HeadPhones" class="cii-img">
+          </div>
+          <div class="container" id="cato-innerbox-text">
+            <h3 class="heading-it">TV & Audios</h3>
+            <ul id="ul-l">
+              <li><a href="#" target="_blank">Smart Television</a></li>
+              <li><a href="#" target="_blank">Qled Tv</a></li>
+              <li><a href="#" target="_blank">Audios</a></li>
+              <li><a href="#" target="_blank">HeadPhones</a></li>
+              <li><a href="#" target="_blank">View All</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 items-cato " id="i-cato" >
+          <div class="container" id="cato-innerbox-img">
+            <img src="images/mac.png" alt="imac" class="cii-img-2">
+          </div>
+          <div class="container" id="cato-innerbox-text">
+            <h3 class="heading-it">Desktop & Laptop</h3>
+            <ul id="ul-l">
+              <li><a href="#" target="_blank">Laptops</a></li>
+              <li><a href="#" target="_blank">Desktops</a></li>
+              <li><a href="#" target="_blank">Printers</a></li>
+              <li><a href="#" target="_blank">Networking Devices</a></li>
+              <li><a href="#" target="_blank">View All</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 items-cato " id="i-cato" >
+          <div class="container" id="cato-innerbox-img">
+            <img src="images/mobi.png" alt="mobile" class="cii-img">
+          </div>
+          <div class="container" id="cato-innerbox-text">
+            <h3 class="heading-it">Smart Phones</h3>
+            <ul id="ul-l">
+              <li><a href="#" target="_blank">Mobiles</a></li>
+              <li><a href="#" target="_blank">Cases&Covers</a></li>
+              <li><a href="#" target="_blank">ScreenGaurds</a></li>
+              <li><a href="#" target="_blank">PowerBanks</a></li>
+              <li><a href="#" target="_blank">View All</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 items-cato " id="i-cato" >
+          <div class="container" id="cato-innerbox-img">
+            <img src="images/game.png" alt="PS4" class="cii-img-2">
+          </div>
+          <div class="container" id="cato-innerbox-text">
+            <h3 class="heading-it">Game Console</h3>
+            <ul id="ul-l">
+              <li><a href="#" target="_blank">PlayStation</a></li>
+              <li><a href="#" target="_blank">Xbox</a></li>
+              <li><a href="#" target="_blank">Console</a></li>
+              <li><a href="#" target="_blank">Games</a></li>
+              <li><a href="#" target="_blank">View All</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 items-cato " id="i-cato" >
+          <div class="container" id="cato-innerbox-img">
+            <img src="images/dslr.png" alt="Dslr" class="cii-img">
+          </div>
+          <div class="container" id="cato-innerbox-text">
+            <h3 class="heading-it">Dslr Camera</h3>
+            <ul id="ul-l">
+              <li><a href="#" target="_blank">Action Camera</a></li>
+              <li><a href="#" target="_blank">Dslr</a></li>
+              <li><a href="#" target="_blank">Digital Cameras</a></li>
+              <li><a href="#" target="_blank">Lenses</a></li>
+              <li><a href="#" target="_blank">View All</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 items-cato " id="i-cato" >
+          <div class="container" id="cato-innerbox-img">
+            <img src="images/cctv.png" alt="CCTV" class="cii-img-2">
+          </div>
+          <div class="container" id="cato-innerbox-text">
+            <h3 class="heading-it">Cctv Camera</h3>
+            <ul id="ul-l">
+              <li><a href="#" target="_blank">Bullet Cameras</a></li>
+              <li><a href="#" target="_blank">Dome Cameras</a></li>
+              <li><a href="#" target="_blank">Spy Camera</a></li>
+              <li><a href="#" target="_blank">Wifi Cctv Camera</a></li>
+              <li><a href="#" target="_blank">View All</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-xxl" >
+      <div class="container" id="trend-prod">
+        <div class="container" id="trend-prod-title">
+          <h1 id="fetu-cato-text">Trending Products</h1>
+        </div>
+        <div class="container" id="tren-prod-disp">
+          <div class="container" id="trend-prod-pic">
+            <img src="images/airpods.png" alt="Airpods" class="tpp-img">
+          </div>
+          <div class="container" id="trend-prod-text">
+            <h5 class="heading-tpt">Airpods Pro</h5>
+              <ul>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <div class="price-tag">
+                <span class="pt-clr">&#8377;19,999</span>
+              </div>
+              <div class="buy-now">
+                <span class="btn-buy">Buy Now</span>
+              </div>
+          </div>
+        </div>
+        <div class="container" id="tren-prod-disp">
+          <div class="container" id="trend-prod-pic">
+            <img src="images/samsung.png" alt="Samsung mobile s21" class="tpp-img">
+          </div>
+          <div class="container" id="trend-prod-text">
+            <h5 class="heading-tpt">Samsung S21</h5>
+              <ul>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <div class="price-tag">
+                <span class="pt-clr">&#8377;97,250</span>
+              </div>
+              <div class="buy-now">
+                <span class="btn-buy">Buy Now</span>
+              </div>
+          </div>
+        </div>
+        <div class="container" id="tren-prod-disp">
+          <div class="container" id="trend-prod-pic">
+            <img src="images/speaker.png" alt="JBL speaker" class="tpp-img">
+          </div>
+          <div class="container" id="trend-prod-text">
+            <h5 class="heading-tpt">JBL Speaker</h5>
+              <ul>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <div class="price-tag">
+                <span class="pt-clr">&#8377;2,999</span>
+              </div>
+              <div class="buy-now">
+                <span class="btn-buy">Buy Now</span>
+              </div>
+          </div>
+        </div>
+        <div class="container-xxl" id="tren-prod-disp">
+          <div class="container" id="trend-prod-pic">
+            <img src="images/opwatch.png" alt="mi watch" class="tpp-img">
+          </div>
+          <div class="container" id="trend-prod-text">
+            <h5 class="heading-tpt"> Mi SmartWatch</h5>
+              <ul>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <div class="price-tag">
+                <span class="pt-clr">&#8377;19,999</span>
+              </div>
+              <div class="buy-now">
+                <span class="btn-buy">Buy Now</span>
+              </div>
+          </div>
+        </div>
+        <div class="container" id="tren-prod-disp">
+          <div class="container" id="trend-prod-pic">
+            <img src="images/skull.png" alt="earphones" class="tpp-img">
+          </div>
+          <div class="container" id="trend-prod-text">
+            <h5 class="heading-tpt">Sony Earphones</h5>
+              <ul>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <div class="price-tag">
+                <span class="pt-clr">&#8377;699</span>
+              </div>
+              <div class="buy-now">
+                <span class="btn-buy">Buy Now</span>
+              </div>
+          </div>
+        </div>
+        <div class="container" id="tren-prod-disp">
+          <div class="container" id="trend-prod-pic">
+            <img src="images/miband.png" alt="mi band" class="tpp-img">
+          </div>
+          <div class="container" id="trend-prod-text">
+            <h5 class="heading-tpt"> RealMe Smart Band</h5>
+              <ul>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <div class="price-tag">
+                <span class="pt-clr">&#8377;1,299</span>
+              </div>
+              <div class="buy-now">
+                <span class="btn-buy">Buy Now</span>
+              </div>
+          </div>
+        </div>
+        <div class="container" id="tren-prod-disp">
+          <div class="container" id="trend-prod-pic">
+            <img src="images/ssd.png" alt="samsung ssd" class="tpp-img">
+          </div>
+          <div class="container" id="trend-prod-text">
+            <h5 class="heading-tpt"> Samsung SSD</h5>
+              <ul>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <div class="price-tag">
+                <span class="pt-clr">&#8377;15,550</span>
+              </div>
+              <div class="buy-now">
+                <span class="btn-buy">Buy Now</span>
+              </div>
+          </div>
+        </div>
+        <div class="container" id="tren-prod-disp">
+          <div class="container" id="trend-prod-pic">
+            <img src="images/powwerbank.png" alt="powerbank" class="tpp-img">
+          </div>
+          <div class="container" id="trend-prod-text">
+            <h5 class="heading-tpt"> Mi PowerBank</h5>
+              <ul>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+                <li class="stars"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <div class="price-tag">
+                <span class="pt-clr">&#8377;999</span>
+              </div>
+              <div class="buy-now">
+                <span class="btn-buy">Buy Now</span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="brands">
+      <div class="conatiner-xl">
+        <div class="conatiner" id="support-1">
+          <i class="fas fa-truck"></i><br/><br/>
+          <span class="font-text">Free Delivery</span>
+        </div>
+        <div class="conatiner" id="support">
+          <i class="fas fa-headset"></i><br/><br/>
+          <span class="font-text">24/7 Support</span>
+        </div>
+        <div class="conatiner" id="support">
+          <i class="fas fa-wallet"></i><br/><br/>
+          <span class="font-text">Online Payment</span>
+        </div>
+        <div class="conatiner" id="support">
+          <i class="fas fa-exchange-alt"></i><br/><br/>
+          <span class="font-text">Easy Returns</span>
+        </div>
+      </div>
+    </div>
+    <div class="container-xlg" id="footer">
+      <div class="container" id="follow">
+        <div class="container" id="fol-des">
+          <span class="fol-head">Get In Touch With Us</span><br/><br/>
+          <p class="fol-con">Phone: (+91) 9381-***-408</p><br/>
+          <p class="fol-con">Monday-Friday:<br/>
+            9.00 am - 8.00 pm
+          </p>
+          <p class="fol-con">Saturday:<br/>
+            10.00 am - 6.00 pm
+          </p>
+          <p class="fol-con">support@electromart.com</p>
+
+        </div>
+        <div class="container" id="fol-des">
+          <span class="fol-head">Our App</span><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+          <p class="fol-con-2">We Will be Available<br/>Soon on Mobile Devices</p>
+
+        </div>
+        <div class="container" id="fol-des">
+          <span class="fol-head">Information</span><br/><br/>
+          <p class="fol-con">About US</p>
+          <p class="fol-con">Contact Us</p>
+          <p class="fol-con">Download</p><br/>
+          <p class="fol-con">SiteMap</p>
+          <p class="fol-con">FAQ'S Page</p>
+        </div>
+        <div class="container" id="fol-des">
+          <span class="fol-head">Shop Departments</span><br/><br/><br/>
+          <p class="fol-con">Computers & Accessories</p>
+          <p class="fol-con">Smartphones & Tablets</p>
+          <p class="fol-con">TV, Video & Audio<br/>
+          <p class="fol-con">Cameras, Photo & Video</p>
+          <p class="fol-con">Headphones</p>
+        </div>
+      </div>
+      <div class="container" id="fol-cpywrt">
+        <span id="cpywrt">&copy;YSK Developer</span><br/>
+      </div>
+    </div>
+
+
+  
+  
+</body>
+</html>

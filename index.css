@@ -1,0 +1,278 @@
+body{
+    margin:auto;
+}
+#lg1{
+    width:150px;
+    height:65px;
+}
+#nav-1{
+    margin-left: 30%;
+}
+.fa-shopping-cart{
+    font-size:48px;
+}
+#header{
+    width:100%;
+    height:80px;
+    background-color:#8f8c8c26;
+    
+}
+#header-search-0{
+    border:2px solid #ffffff26;
+    height:80%;
+    width:40%;
+    margin-left: 30%;
+}
+.dropdown-menu{
+    border:1px solid black;
+}
+
+#sl1,#sl2,#sl3,#sl4{
+    width:100%;
+    height:600px;
+}
+#clr{
+    color:black;
+}
+
+
+.container-lg{
+    border:2px solid pink;
+}
+.carousel-control-prev-icon{
+    background-color:rgba(0, 0, 0, 0.37); 
+    padding: 4px;
+}
+.carousel-control-next-icon{
+    background-color:rgba(0, 0, 0, 0.37); 
+    
+}
+#con-2{
+    width:100%;
+    height:1000px;
+    
+    background-color:#8f8c8c26;
+
+}
+#fetu-cato{
+    
+    width:80%;
+    height:100px;
+    margin-left:10%;
+    padding-top: 30px;
+}
+#fetu-cato-text{
+    text-align:center;
+    
+}
+#cato-box{
+    
+    width:80%;
+    height:900px;
+}
+#i-cato{
+    
+    width:45%;
+    height:275px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left:3%;
+    background-color:white;
+}
+#cato-innerbox-img{
+    width:50%;
+    height:271px;
+    float:right;
+}
+#cato-innerbox-text{
+    width:49%;
+    height:271px;
+    float:left;
+}
+.cii-img{
+    width:100%;
+    height:100%;
+}
+.cii-img-2{
+    width:100%;
+    height:80%;
+    margin-top: 20%;
+}
+.heading-it{
+    color:#2f3133;
+    margin-left:15%;
+    margin-top: 13%;
+}
+#ul-l{
+    text-decoration: none;
+    list-style: none;
+    margin-left:3%;
+    
+}
+li>a{
+    text-decoration:none;
+    color:#656060;
+}
+li>a:hover{
+    color:black;
+
+}
+#trend-prod{
+    width:96%;
+    height:1000px;
+    
+}
+#trend-prod-title{
+    width:100%;
+    height:75px;
+    margin-top:3%;
+}
+#tren-prod-disp{
+    border:1px solid #d2d2d2;
+    width:21%;
+    height:400px;
+    display: inline-block;
+    margin-left:3%;
+    margin-top:3%;
+}
+#trend-prod-pic{
+    
+    width:99%;
+    height:250px;
+    margin-top:6%;
+    background-color:#8f8c8c26;
+}
+#trend-prod-text{
+    
+    height:130px;
+    width:99%;
+}
+.tpp-img{
+    width:100%;
+    height:100%;
+}
+.heading-tpt{
+    margin-left:0%;
+    margin-top:1%;
+}
+ul{
+    list-style: none;
+    margin-left:-15%;
+}
+.stars{
+    display: inline-block;
+   
+}
+.fa-star{
+    color:orange;
+    font-size:14px;
+    
+}
+.price-tag{
+    width:80%;
+    height:20px;
+}
+.pt-clr{
+    color:#0167F3;
+    font-weight: bold;
+
+}
+.btn-buy{
+    background-color:#33455c;
+    color:white;
+    padding:10px;
+    margin-left: 49%;
+    border-radius: 4px;
+    
+}
+.btn-buy:hover{
+    background-color:#95b6e2;
+    color:#081828;
+
+}
+#brands{
+    width:100%;
+    height:300px;
+    background-color:#8f8c8c26;
+}
+#support{
+    width:23%;
+    height:150px;
+    border:2px solid #d2d2d2;
+    display: inline-block;
+    margin-top:6%;
+    
+}
+#support-1{
+    width:23%;
+    height:150px;
+    border:2px solid #d2d2d2;
+    display: inline-block;
+    margin-left: 4%;
+    margin-top:6%;
+
+}
+.fa-truck,.fa-headset,.fa-wallet,.fa-exchange-alt{
+    font-size: 48px;
+    color: #46494b;
+    margin-left: 35%;
+    margin-top:6%;
+}
+.font-text{
+    margin-left:25%;
+    
+}
+.fa-truck:hover,.fa-headset:hover,.fa-wallet:hover,.fa-exchange-alt:hover{
+    color:black;
+}
+#footer{
+    width:100%;
+    height:500px;
+    border:2px solid rgb(26, 23, 23);
+    background-color:#081828;
+}
+#follow{
+    border-top:2px solid #3f3a33;
+    height:350px;
+    width:100%;
+    margin-top:3%;
+    padding:10px;
+    padding-top: 10px;
+    border-bottom:2px solid #3f3a33;
+}
+#fol-des{
+    
+    width:24%;
+    height:345px;
+    display: inline-block;
+
+}
+.fol-head{
+    color:rgba(248, 244, 244, 0.925);
+    font-size:23px;
+    margin-left:10%;
+    
+    border-bottom: 3px solid #4344a5;
+    
+}
+.fol-con{
+    color:rgb(233, 230, 230);
+    margin-left:10%;
+}
+
+.fol-con-2{
+    color:rgb(233, 230, 230);
+    margin-left:10%;
+    
+}
+#fol-cpywrt{
+    
+    height:60px;
+    width:80%;
+    margin-top: 2%;
+}
+#cpywrt{
+    margin-left: 45%;
+    
+    color:white;
+}
