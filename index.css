@@ -1,6 +1,10 @@
 body{
     margin:auto;
 }
+.mydark{
+    background-color: black;
+    color:#d2d2d2;
+}
 #lg1{
     width:150px;
     height:65px;
@@ -8,6 +12,16 @@ body{
 #nav-1{
     margin-left: 30%;
 }
+#mdimg{
+    height:30px;
+    width:30px;
+}
+#btnclr{
+    border-radius: 10px;
+    margin-left:100px;
+    border:none;
+}
+
 .fa-shopping-cart{
     font-size:48px;
 }
@@ -34,7 +48,28 @@ body{
 #clr{
     color:black;
 }
+#coupon{
+    height:300px;
+    width:300px;
+    z-index: 100;
+    display:block;
+    position:absolute;
+    margin-left:35%;
+    margin-top: 10%;
 
+}
+#cpimg{
+    height:300px;
+    width:430px;
+}
+#x{
+    position: absolute;
+    background-color: #fffef8;
+    border-radius: 20px;
+    border:none;
+    font-size:23px;
+
+}
 
 .container-lg{
     border:2px solid pink;
@@ -78,6 +113,10 @@ body{
     margin-top: 10px;
     margin-left:3%;
     background-color:white;
+}
+.cato-boxx{
+    background-color:#858585;
+    
 }
 #cato-innerbox-img{
     width:50%;

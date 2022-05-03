@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/b942e9570b.js" crossorigin="anonymous"></script>
     <link rel="icon" href="images/favicon.ico">
+   <script src="index.js" type="text/javascript"></script>
     
 </head>
-<body>
+<body class="mydark">
     
     <nav class="navbar navbar-expand-sm bg-light navbar-light ">
         <div class="container-fluid">
@@ -41,6 +42,8 @@
               <li class="nav-item" id="nav-item-cart">
                 <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
               </li>
+              <button onClick="changeMode()" id="btnclr"><img src="images/mode.png" id="mdimg"></button>
+              
             </ul>
           </div>
         </div>
@@ -66,10 +69,11 @@
             </div>
           </div>
         </div>
-        
-      
     </div>
-   
+    <div id="coupon">
+      <button onClick="closeCoupon()" id="x">&times;</button>
+      <img src="images/coup.jpg" id="cpimg">
+    </div>
     <div class="container-xlg">
       
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -132,7 +136,7 @@
       <div class="col-md-4 fetu" id="fetu-cato" >
         <h1 id="fetu-cato-text">Featured Categories</h1>
       </div>
-      <div class="container" id="cato-box">
+      <div class="container" id="cato-box" class="cato-boxx">
         <div class="col-md-4 items-cato " id="i-cato" >
           <div class="container" id="cato-innerbox-img">
             <img src="images/headset.png" alt="HeadPhones" class="cii-img">
@@ -460,7 +464,9 @@
         <span id="cpywrt">&copy;YSK Developer</span><br/>
       </div>
     </div>
-
+    <script>
+      window.onload = loadCoupon()
+    </script>
 
   
   
