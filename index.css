@@ -25,22 +25,35 @@ body{
 .fa-shopping-cart{
     font-size:48px;
 }
-#location{
-    margin-left:1%;
-    margin-top:10px;
-    border-radius: 2px;
-    border:none;
+.address-my {
+    color: rgb(0, 0, 0);
+    min-width: 155px;
+    height: 100%;
+    font-size: 13px;
+    padding: 5px;
+}
 
+#img {
+    object-fit: cover;
 }
-#weather{
-    margin-top:-3%;
-    margin-left:-1%;
+
+#imG-container {
+   margin-top:0%;
+   margin-left:50%;
+    
 }
-#out{
-    display:inline-block;
-    font-size:16px;
-    margin-top:10px;
-    color:#060607;
+
+#temperature-here {
+    margin-top:0%;
+    margin-left:50%;
+     
+   
+}
+
+#address-me {
+    margin-top:0%;
+    margin-left:50%;
+     
 }
 #header{
     width:100%;
